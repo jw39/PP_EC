@@ -1,0 +1,81 @@
+.detail_orderKey{
+    font-weight:  800;
+    padding-top : 35px;
+}
+
+.detail_p{
+    padding-left: 10px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+
+.detail_container{
+    // align-items: center;
+    padding : 10px 0 25px 0;
+    padding-left : 20px;
+    border-top: 1px solid rgb(207, 207, 207);
+    border-bottom: 10px solid rgb(233, 233, 233);
+    img{
+        width: 100px;
+        height :100px;
+        padding: 10px;
+    }
+
+
+    .detail_btn{
+        border: 1px solid #0099FC;
+        width: 90%;
+        height: 40px;
+        line-height: 40px;
+        margin: auto;
+        text-align: center;
+        border-radius: 8px;
+        margin-top: 10px;
+        color: #0099FC;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .detail_text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .detail_text2{
+        display: flex;
+        align-items: center;
+    }
+
+    .detail_text12 {
+        align-content: center;
+        padding-top: 10px;
+    }
+
+
+.orderdetail_brand {
+    color: gray;
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+.orderdetail_price {
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.orderdetail_name {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.orderdetail_vol{
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+}

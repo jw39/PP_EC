@@ -1,0 +1,378 @@
+#mypage,
+#order{
+    background-color: white;
+
+    // 링크용 태그
+    h2{
+        // 두께
+        font-weight: 600;
+        font-size: 15px;
+        color: rgba(128, 128, 128, 0.7);
+        padding: 1vh 0;
+        vertical-align: middle;
+    }
+    h2:hover{
+        // 마우스 포인터로 변경
+        cursor: pointer;
+        // 밑줄
+        text-decoration: underline;
+    }
+
+    h1{
+        /* 두께 */
+        font-weight: 500;
+        font-size: 14px;
+        // color: rgba(128, 128, 128, 0.7);
+        padding: 1vh 0;
+        vertical-align: middle;
+    }
+
+    p{
+        // 두께
+        font-weight: 1000;
+        // font-size: 1.8vh;
+        color: rgba(0, 0, 0, 1);
+        padding: 1vh 0;
+        vertical-align: middle;
+
+    }
+
+    #main{
+        height: 100%;
+        // width: 700px;
+        padding: 0 2vw 0vh 2vw;
+        
+        background-color: white;
+        .fst{
+            // 가운데 정렬
+            display: flex;
+            // 수직
+            align-items: center;
+            // 수평
+            // justify-content: center;
+            padding: 1vh 0;
+            // height: 10vh;
+            width: 100%;
+            background-color: white;
+            > img{
+                // 위치 조절
+                padding: 0 20px 0 0vw;
+                
+                // 이미지 크기 조절
+                height: 50px;
+                width: 50px;
+            }
+            .middle{
+                width: 82%;
+                > h1{
+                    font-size: 20px;
+                    margin-left: 7px;
+                }
+                .bottom{
+
+                    display: flex;
+                    > p{
+                        display: flex;
+                        margin-right: 5px;
+                        background-color: whitesmoke;
+                        // 테두리 두께, 색상 지정
+                        border: 1px solid #e0e0e0;
+
+                        // 모서리 라운딩
+                        border-radius: 10px;
+
+                        // 그림자 효과
+                        // box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+
+                        font-size: 12px;
+                        font-weight: lighter;
+                        height: 5px;
+                        width: 40px;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+            .right{
+                // 가운데 정렬
+                display: flex;
+                // 수직
+                align-items: center;
+                /* 수평 */
+                justify-content: flex-end; 
+                // float: left;
+                
+                // 부모 클래스(.fst) 내에서 .right의 width를 100%로 설정
+                // .middle과 같은 다른 요소가 차지하는 공간이 있다면, 나머지 공간을 차지해 총 합이 100%가 되게 설정
+                flex: 1;
+                
+                height: 100%;
+                // width: 7vw;
+                > img{
+                    // 이미지 크기 조절
+                    margin-right: 10px ;
+                    height: 30%;
+                    // width: 80%;
+                }
+            }
+        }
+
+        .scd{
+            // 가운데 정렬
+            display: flex;
+            // 수직
+            align-items: center;
+            // 수평
+            // justify-content: center;
+            
+            height: 10vh;
+            margin: 1vh 0.5vw;
+                
+            // 테두리 두께, 색상 지정
+            border: 0vh solid gray;
+    
+            // 모서리 라운딩
+            border-radius: 1rem;
+    
+            // 그림자 효과
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    
+            // 배경 이미지로 선 추가
+            background:
+            linear-gradient(to right, 
+                transparent 0, 
+                rgba(0, 0, 0, 0.5) 1px, 
+                // 선 위치
+                transparent 2px) 33.333% 50%,
+            linear-gradient(to right, 
+                transparent 0, 
+                rgba(0, 0, 0, 0.5) 1px, 
+                transparent 2px) 66.666% 50%;
+            background-size: 1px 50%; /* 선 길이를 절반으로 조정 */
+            background-repeat: no-repeat;
+            .left,.middle,.right {
+                // 가운데 정렬
+                display: flex;
+                // 수직으로 배치
+                flex-direction: column; // 세로 방향으로 정렬
+                align-items: center; // 수평 가운데 정렬
+                justify-content: center; // 수직 가운데 정렬
+        
+                width: 33.333%;
+            }
+        }
+
+        .text{
+            padding: 2vh 0 2vh 0.5vw;
+            border-bottom: 1px solid rgb(218, 216, 216);
+            > img{
+                // 사진 크기 조정
+                height: 10vh;
+                width: 10vh;
+            }
+            > h1{
+                // 마우스 포인터 변경
+                cursor: pointer;
+            }
+        }
+
+        .ad{
+            // 가운데 정렬
+            display: flex;
+            // 수직
+            align-items: center;
+            // 수평
+            justify-content: center;
+    
+            height: 11vh;
+            margin: 0vh 0.5vw;
+            background-color: rgba(144, 238, 144, 0.4); 
+            
+            // 테두리 두께, 색상 지정
+            border: 0vh solid gray;
+    
+            // 모서리 라운딩
+            border-radius: 1rem;
+        }
+
+        .ad2{
+            // 가운데 정렬
+            display: flex;
+            // 수평 방향 정렬
+            flex-direction: column;
+            // align-items: center;
+            justify-content: center;
+    
+            height: 10vh;
+            margin: 0vh 0.5vw;
+            padding-left: 25px;
+            background-color: rgb(220, 220, 220); 
+            
+            // 테두리 두께, 색상 지정
+            border: 0vh solid gray;
+    
+            // 모서리 라운딩
+            border-radius: 1vh;
+            p{
+                font-size: 1.6vh;
+                color: rgba(10, 10, 10, 1);
+                vertical-align: middle;
+            }
+        }
+
+        .last{
+            // 아래 foot 있어서 아래쪽 패딩 더 줌
+            padding: 2.5vh 0 10vh 0.5vw;
+        }
+
+        // --- order 페이지 테이블
+        .ordertable{
+            // 가운데 정렬
+            // display: flex;
+            // 수직
+            // align-items: center;
+            // 수평
+            // justify-content: center;
+            width: 100%;
+            background-color: white;
+
+            margin: 20px 0;
+            th, td, tr {
+                // 셀 테두리 색상
+                border: 1px solid #ddd;
+                // 샐 내 여백
+                padding: 8px;
+                // 텍스트 정렬
+                text-align: center;
+                vertical-align: middle;
+
+                // 줄바꿈 방지
+                white-space: nowrap;
+            }
+
+        }
+    }
+
+    #foot {
+        // width: 700px;
+        // 가운데 정렬
+        display: flex;
+        // 수직
+        align-items: center;
+        // 수평
+        // justify-content: center; 
+
+        // 테두리 두께, 색상 지정
+        border-top: 0.1vh solid gray;
+        border-right: 0.1vh solid gray;
+        border-left: 0.1vh solid gray;
+        
+        
+        
+        // 화면 아래 고정
+        position: fixed;
+        bottom: 0; // 화면의 아래쪽에 위치
+        height: 6vh;
+        width: 696px; // 전체 너비를 차지
+
+        // 그림자 효과
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+
+        // 배경 이미지로 선 추가
+        background:
+        linear-gradient(to right, 
+                transparent 0, 
+                rgba(0, 0, 0, 0.3) 0.5px, 
+                transparent 2px) 20% 50%,
+            linear-gradient(to right, 
+                transparent 0, 
+                rgba(0, 0, 0, 0.3) 0.5px, 
+                transparent 2px) 40% 50%,
+            linear-gradient(to right, 
+                transparent 0, 
+                rgba(0, 0, 0, 0.3) 0.5px, 
+                transparent 2px) 60% 50%,
+            linear-gradient(to right, 
+                transparent 0, 
+                rgba(0, 0, 0, 0.3) 0.5px, 
+                transparent 2px) 80% 50%;
+
+        background-size: 1px 50%;
+        background-repeat: no-repeat;
+        background-color: white;
+        .icon{
+            // 가운데 정렬
+            display: flex;
+            flex-direction: column;
+            // 수직
+            align-items: center;
+            // 수평
+            justify-content: center; 
+    
+            height: 100%;
+            width: 20%;
+            // background-color: gray;
+            > p{
+                margin: 0;
+                padding: 0;
+                font-size: 12px;
+            }
+            > img{
+                height: 35px;
+                width: 35px;
+
+                // hover transform 효과 천천히
+                transition: transform 0.2s ease
+            }
+
+            > img:hover{
+                // 이미지 확대
+                transform: scale(1.1);
+                // 마우스 포인터 변경
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+#head_banner{
+    text-align: center;
+    font-size : 20px;
+    font-weight: 800;
+}
+
+.myPage_gift{
+    border-top : 10px solid rgb(234, 234, 234);
+    border-bottom : 10px solid rgb(234, 234, 234);
+    padding : 10px 0;
+    margin : 20px 0;
+    .flex_col{
+        height: 90px;
+    }
+
+
+
+    img{
+        width : 30px;
+        height : 15px;
+        color :gray;
+        padding-top: 20px;
+    }
+
+    div{
+        justify-content: center;
+        // align-items: center;
+        div{
+            text-align: center;
+            .myPage_count{
+                font-size: 32px;
+            }
+        }
+    }
+}
+
+
+
+// .App.division_line{
+//     margin-top: 0px;
+// }

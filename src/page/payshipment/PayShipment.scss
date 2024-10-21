@@ -1,0 +1,411 @@
+.backORtext {
+    display: flex;
+    align-items: center;
+}
+
+.orderpay_back_btn {
+    width: 24px;
+    height: 24px;
+}
+
+.orderpay_text {
+    font-weight: 700;
+    font-size: 19px;
+    padding-left: 280px;
+}
+
+.orderpay_body {
+    padding-top: 10px;
+}
+
+.delivery_boxes {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ddd;
+}
+
+.delivery_btn {
+    width : 100%;
+    margin-left: 0;
+}
+.delivery_boxes_left{
+    width : 95%;
+    line-height: 24px;
+}
+
+.delivery_text {
+    // font-weight: 500;
+    
+    color: #000;
+    background: #fff;
+    padding: 14px 13px 13px 13px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.delivery_text:focus {
+    color: #0099FC;
+}
+
+// .delivery_text.active {
+//     font-weight: 600;
+// }
+
+.delivery_container {
+    padding: 20px 16px 20px 16px;
+}
+
+.basic_name {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.basic {
+    color: #0099FC;
+    margin-right: 3px;
+}
+
+.order_product_vol {
+    display: inline;
+}
+
+.delivery_address {
+    font-size: 13px;
+    color: #383838;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.delivery_phone {
+    color: #333333;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+
+.delevery_msg{
+    color: #333333;
+    font-size: 13px;
+
+}
+
+.thin_grayline {
+    height: 1px;
+    background-color: #d7d7d7;
+    border: 0 solid #f2f2f2;
+    margin: 0;
+}
+
+.thick_grayline {
+    height: 10px;
+    background-color: #e8e8e8;
+    border: 0 solid #f2f2f2;
+    margin: 0;
+    
+}
+
+.order_product {
+    display: flex;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-decoration: none;
+    color: black;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+}
+
+.delivery_dropdown {
+    position: relative;
+    padding: 10px 0px 10px 30px;
+}
+
+.dropdown_toggle {
+    width: 95%;
+    padding-top: 10px;
+    padding: 7px 10px 7px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid #b2b2b2;
+    cursor: pointer;
+}
+
+.dropdown_menu {
+    width: 90.8%;
+    position: absolute;
+    background-color: #fff;
+    // border: 1px solid #ddd;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown_menu li {
+    padding: 10px 15px 10px 15px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.dropdown_menu li:hover {
+    background-color: #ddd;
+}
+
+.dropdown_triangle {
+    width: 8px;
+    height: 8px;
+}
+
+.order_img {
+    padding: 10px;
+}
+
+.order_content_text {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.order_product_nametext {
+    display: flex;
+    white-space : nowrap;  // 줄바꿈 X
+    // width: 100%;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.order_product_name {
+    margin-right: 5px;
+}
+
+.order_product_price {
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+.order_graytext {
+    color: gray;
+    font-size: 13px;
+}
+
+
+.pay_fix_btn{
+    background: #0099FC;
+    color : #fff;
+    text-align: center;
+    position: sticky;
+    font-size : 20px;
+    font-weight: 600;
+    height : 50px;
+    width : 100%;
+    border-radius: 10px;
+    line-height: 50px;
+    bottom: 10px;
+    margin-top: 20px;
+}
+
+.order_product_brandxbtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+// .order_x_btn {
+//     width: 10px;
+//     height: 10px;
+
+// }
+
+.pay_fix_box {
+    // border-top: 1px solid #d7d5d5;
+    // border-bottom: 1px solid #d7d5d5;
+    padding: 10px;
+}
+
+.white_text_box {
+    // border-top: 1px solid #d7d5d5;
+    // border-bottom: 1px solid #d7d5d5;
+    padding: 13px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+
+
+.delivery_list_box {
+    border-bottom: 1px solid #d7d5d5;
+    padding-bottom: 10px;
+}
+
+.delivery_add {
+    padding: 10px;
+}
+
+.gray_text {
+    padding: 15px 30px 0px 30px;
+    color: #818181;
+}
+
+.gray_text_money {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay_fix_box {
+    padding: 12px 30px 12px 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e9e9e9;
+    color: #5a5a5a;
+}
+
+// 이름
+.deliverylist_name {
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+// 기본 배송지
+.deliverylist_basic{
+    color:#00c1fc;  // 이거 걍 설계도랑 비슷하게 하려고 대충 한 거라 맘에 안 들면 바꿔
+    font-size: 13px;
+    padding-left: 5px;
+    font-weight: 600;
+
+}
+
+// 이름, 기본 배송지 합친 박스
+.deliverylist_namebasic{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.deliverylist_address{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #383838;
+}
+
+.deliverylist_phone {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #333333;
+}
+
+.deliverylist_msg{
+    margin-top: 12px;
+    // margin-bottom: 20px;
+    font-size: 13px;
+    color: #333333;
+}
+
+.deliverylist_btn{
+    margin-top: -30px;
+    margin-bottom: 15px;
+    padding-left: 500px; // 이거는 두 개 오른쪽 정렬 가능한데 이렇게 할 거면 걍 공중에 띄우는게 나을 듯
+}
+
+
+.deliverylist_del{
+    margin-right: 10px;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: red;
+    border-color:#d7d5d5;
+    border-width: thin;
+
+    
+}
+
+.deliverylist_edit{
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #00c1fc;
+    border-color:#d7d5d5;
+    border-width: thin;
+    // margin-left: 500px; // 버튼 두 개 찢어놓으면 안 예뽀
+
+}
+
+.deliverylist_add{
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #00c1fc;
+    font-weight: bold;
+    border-color:#d7d5d5;
+    border-width: thin;
+    font-weight: 900;
+
+}
+
+.deliverylist_list{
+    padding-left: 16px;
+}
+
+.first_line {
+    display: flex;
+    align-items: baseline;
+}
+
+.gudog {
+    color: #787878;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.sample5 {
+    font-size: 14px;
+}
+
+.gudog_period {
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.third_line {
+
+}
+
+.gudog_month {
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.gudog_price {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.gudog_fix_btn{
+    background: #0099FC;
+    color : #fff;
+    text-align: center;
+    position: sticky;
+    font-size : 20px;
+    font-weight: 600;
+    height : 50px;
+    width : 100%;
+    border-radius: 10px;
+    line-height: 50px;
+    bottom: 10px;
+    margin-top: 25px;
+}

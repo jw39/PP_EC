@@ -1,0 +1,50 @@
+.menu_container{
+    z-index: 500; 
+    background : #ffffff; 
+    border-radius : 10px; 
+    padding : 5px 10px; 
+    width : 260px;
+    box-shadow: -2px 6px 15px 4px #80808052;
+    // border: 3px solid #bbbbbb52;
+}
+
+.menu_loginbox {
+    padding: 5px 0 10px 3px;
+}
+
+.menu_userimg {
+    height: 24px;
+    width: 24px;
+}
+
+.menu_title{
+    margin-left: 10px;
+    font-size: 14px;
+    color: #6f6f6f;
+    font-weight: 500;
+    letter-spacing: 0.03rem;
+    cursor: pointer;
+}
+
+.menu_logout {
+    padding: 10px 0 10px 2px;
+    p {
+                padding : 8px 0;
+                font-size: 15px;
+                letter-spacing: 0.03rem;
+                font-weight: 700;
+                cursor: pointer;
+            }
+}
+
+.menu_login {
+    // padding-bottom: 5px;
+    p {
+        padding: 12px 0;
+        font-size: 13px;
+        letter-spacing: 0.03rem;
+        font-weight: 500;
+        color: #6b6b6b;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,60 @@
+.address_container_row{
+    
+    
+    height: 40px;
+    padding : 10px 20px;
+    line-height: 40px;
+    
+    div{
+        width : 120px;
+        
+        span{
+            color : red;
+        }
+    }
+    input {
+        flex :1;
+    }
+    button{
+        background: none;
+        border-width: thin;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    span{
+        padding : 0 10px;
+    }
+
+}
+.address_container_row:first-child{
+    padding-top : 20px;
+}
+
+
+.dropdown{
+    width: 150px; height: 40px;
+    appearance: none;
+    -webkit-appearance: none; /* 사파리, 크롬 하위버전용 */
+    -moz-appearance: none; /* 사파리, 크롬 하위버전용 */
+    
+    border: 1px solid #666;
+    
+    padding: 0 10px; box-sizing: border-box;
+    
+    background-image: url(../../img/select_icon.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    background-size: 15px;
+}
+
+.address_contents_title{
+    height : 50px;
+    line-height: 50px;
+    padding-left : 15px;
+    font-size : 16px;
+}
+
+.dropflex{
+    flex :1;
+}

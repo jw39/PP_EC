@@ -1,0 +1,162 @@
+#Typecheck{
+    #head{
+        background-color: white;
+    }
+    #main{
+        margin-top: 20px;
+        background: white;
+        .fst{
+            // 가운데 정렬
+            display: flex;
+            // 자식요소 줄바굼 설정
+            flex-wrap: wrap;
+            // 수직
+            // align-items: center;
+            // 수평
+            justify-content: center;
+            
+            height: 90%;
+            // margin: 1vh 0.5vw;
+                
+            background-color: gray;
+            background-image: url('../../img/화장품 이미지4.jpg');
+            // // 배경 이미지로 선 추가
+            // background:
+            // linear-gradient(to right, 
+            // transparent 0, 
+            // rgba(0, 0, 0, 0.5) 1px, 
+            // // 선 위치
+            // transparent 2px) 33.333% 50%,
+            // linear-gradient(to right, 
+            // transparent 0, 
+            // rgba(0, 0, 0, 0.5) 1px, 
+            // transparent 2px) 66.666% 50%;
+            // background-size: 1px 50%; /* 선 길이를 절반으로 조정 */
+            // background-repeat: no-repeat;
+
+            .top, .bottom {
+                align-content: center;
+                // margin: 0 10px;
+                // 테두리 두께, 색상 지정
+                border: 0vh solid gray;
+        
+                // 모서리 라운딩
+                border-radius: 15px;
+        
+                // 그림자 효과
+                box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+                // 가운데 정렬
+                display: flex;
+                // 수직으로 배치
+                flex-direction: column; // 세로 방향으로 정렬
+                align-items: center; // 수평 가운데 정렬
+                justify-content: center; // 수직 가운데 정렬
+
+                background-color: rgba(255, 255, 255, 0.8);
+
+                >p{
+                    width: 80%;
+                    text-align: center;
+                }
+            }
+            .top{
+                width: 60%;
+                height: 70%;
+                margin: 5% 50px 0 50px;
+                // display: flex;
+                // 자식요소 줄바굼 설정
+                // flex-wrap: wrap;
+                img{
+                    height: 80%;
+
+                }
+                .top1{
+                    height: 80%;
+                }
+                .top2{
+                    width: 100%;
+                    // height: 100%;
+                    display: flex;
+                    // 자식요소 줄바굼 설정
+                    flex-wrap: wrap;
+                    
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+
+                    // background-color: aqua;
+                    gap: 5px;
+                    // h1{
+                    //     // flex: 1;
+                    //     // margin: 0;
+                    // }
+                    // button {
+                    //     // flex: 1 1 auto; /* 버튼이 필요한 만큼의 공간만 차지하도록 설정 */
+                    // }
+                }
+                .top2 h1 {
+                    // display:flex;
+                    // width: 100%;
+                    // align-items: center;
+                    text-align: center;
+                    // vertical-align: middle;
+                    // align-self: center;
+                    // justify-content: center; // 수직 가운데 정렬
+                    // margin: 0;
+                }
+                .top2 button {
+                    // width: 10px;
+                    // width: 100%;
+                }
+            }
+            .bottom{
+                width: 60%;
+                height: 15%;
+                margin: 0 50px 0 50px;
+            }
+
+            .typecheck_btn {
+                border: 1px solid #0099FC;
+                cursor: pointer;
+                padding: 8px 100px 8px 100px;
+                border-radius: 5px;
+                font-size: 14px;
+                font-weight: 700;
+                color: #0099fc;
+                background-color: #fff;
+                margin: 8px 0;
+            }
+
+            .typecheck2_btn {
+                border: 1px solid #0099FC;
+                cursor: pointer;
+                padding: 4px 23px 4px 23px;
+                border-radius: 5px;
+                font-size: 13px;
+                font-weight: 600;
+                color: #ffffff;
+                background-color: #0099fc;
+
+            }
+
+            .btn-5:hover {
+                box-shadow: 0px 0px 10px #abd7ff;
+            }
+
+            .top2_line {
+                font-size: 15px;
+            }
+
+          .user_nm_border {
+            font-weight: 700;
+            // color: #0099FC;
+
+          }
+
+          .skinData_border {
+            font-weight: 700;
+            color: red;
+          }
+        }
+    }
+}

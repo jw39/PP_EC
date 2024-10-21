@@ -1,0 +1,1520 @@
+// 상단 고정
+.tempbutton{
+    margin-left: 600px;
+    // height: 30px;
+    // width: 80px;
+    background-color: #0099FC;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 8px 17px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 10px;
+    border-radius: 10px;
+
+}
+
+
+.itemname {
+    /* 기존 스타일 유지 */
+    height: 38px;
+    background: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    top: 0px;
+    z-index: 10;
+    position: sticky;
+
+    /* 스크롤 시 그림자 추가 */
+    .sticky {
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+    }
+}
+
+.detail_backboard {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+}
+
+.goback {
+    width: 60px;
+    display: block;
+    height: 40px;
+    border: 0;
+    background-color: transparent;
+
+}
+
+.cosmeticname {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 9px;
+}
+
+.gobackimg {
+    cursor: pointer;
+    display: flex;
+    margin-top: 0px;
+    position: absolute;
+    padding-top: 9px;
+    cursor: pointer;
+}
+
+
+// 메인 부분
+
+.w-full {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+// 이미지 흐리게 처리하는 기능
+// filter: blur(5px);
+// -webkit-filter: blur(5px);
+
+.starinfo {
+    display: flex;
+    margin-top: 25px
+}
+
+.starinfotext {
+    display: flex;
+    line-height: 14px;
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.brand {
+    margin-left: -2px;
+    margin-top: 46px;
+}
+
+.iteminfo {
+    margin-left: 10px;
+}
+
+#brandname {
+    margin-left: 14px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.nameinfo {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.priceinfo {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.price {
+    display: flex;
+    margin-right: 40px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.price1 {
+    color: #666;
+}
+
+.pricetext {
+    margin-left: 25px;
+}
+
+.rankingtext {
+    margin-left: 25px;
+}
+
+.rankinginfo {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.ranking {
+    display: flex;
+    margin-right: 40px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.ranking1 {
+    color: #666;
+}
+
+#main1::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.cosdesintro{
+    display: flex;
+    margin-right: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 30px;
+    color : gray
+}
+
+.cosdescriptiontext{
+    display: flex;
+    margin-right: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 25px;
+    text-align: -webkit-left;
+}
+
+// 배송비 영역
+
+.deliveryprice {
+    display: flex;
+    margin-left: 10px;
+}
+
+.deliverytitle {
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.deliverytitle2 {
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+    color: gray;
+}
+
+.iffivetitle {
+    margin-left: 96px;
+}
+
+.iffive {
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+    color: gray;
+    margin-bottom: 25px;
+}
+
+.deliverybar {
+    --tw-bg-opacity: 1;
+    background-color: rgba(242, 242, 242, var(--tw-bg-opacity));
+    height: 4px;
+    border-width: 0;
+    margin-bottom: 30px;
+
+}
+
+.itemtitlebox {
+    border: 1px solid rgba(205, 205, 205, 0.7019607843);
+    border-radius: 2px;
+    background-color: #ffffff;
+    padding: 12px;
+    height: -20px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.itemtitlebox2 {
+    text-align: left;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: flex-start;
+}
+
+.amount {
+    text-align: left;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 210px;
+}
+
+// .shoppingcart {
+//     display: flex;
+//     font-size: 17px;
+//     font-weight: 800;
+//     margin-left: -15px;
+//     margin-top: 0px;
+//     color: #000000;
+// }
+
+// 결제 부분 영역 
+.amountallpricebox {
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.amountallpricetext {
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0099FC
+}
+
+.amountallprice {
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0099FC
+}
+
+.amountpricebar {
+    --tw-bg-opacity: 1;
+    background-color: rgba(#0099FC, var(--tw-bg-opacity));
+    height: 4px;
+    border-width: 0;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.simillarrecommend {
+    color: #3b3b3b;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 255px 20px 10px 10px;
+    position: fixed;
+}
+
+
+
+.randomimgprice {
+    font-weight: 600;
+    font-size: 12px;
+    color: #0099FC;
+    display: flex;
+    justify-content: center;
+}
+
+.randombrandname{
+    font-size: 11px;
+    color: #000000;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.randomvolname{
+    font-size: 11px;
+    color: #000000;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.randomrankingname{
+    font-size: 11px;
+    color: #000000;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.shoppingcartfix{
+    position: fixed;
+    width: 470px;
+}
+
+.recodataall{
+    display: flex;
+}
+
+.recodataall2{
+    min-width: 185px;
+    overflow-x: auto;
+    flex-wrap: wrap;
+}
+
+.modalimg {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 300px;  
+}
+
+.modalimgmain {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.modalimgbar {
+    display: flex;
+}
+
+.itemtitletextbox{
+    display: flex;
+}
+
+.cosdesline {
+    display: contents;
+}
+
+// 구매하기 및 장바구니 버튼
+.buybasketmain {
+    justify-content: center;
+    display: grid;
+}
+
+.itemtitlecontentbox {
+    width: 64px;
+    justify-content: space-between;
+    padding: 0px 39px;
+    display: flex;
+}
+
+.itemtitlebtn {
+    border: 1px solid rgb(221, 214, 214);
+    width: 18px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+// 구매하기 버튼
+
+.buyitembutton {
+
+    .btn {
+        box-sizing: border-box;
+        appearance: none;
+        background-color: transparent;
+        border: 2px solid #0099FC;
+        border-radius: 0.2em;
+        color: #007bcb;
+        cursor: pointer;
+        display: flex;
+        align-self: center;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1;
+        margin: 20px;
+        padding: 1.2em 2.8em;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        padding: 16px;
+        width: 672px;
+        justify-content: center;
+
+        &:hover,
+        &:focus {
+            color: #fff;
+            outline: 0;
+        }
+
+    }
+}
+
+.first {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+
+    &:hover {
+        box-shadow: 0 0 40px 40px #0099FC inset;
+    }
+}
+
+// 장바구니 버튼
+
+.basketbutton {
+
+    .btn {
+        box-sizing: border-box;
+        appearance: none;
+        background-color: transparent;
+        border: 2px solid #009bffb8;
+        border-radius: 0.2em;
+        color: #009bffb8;
+        cursor: pointer;
+        display: flex;
+        align-self: center;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 0;
+        margin: 20px;
+        padding: 1.2em 2.8em;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        padding: 15px;
+        justify-content: center;
+        margin-bottom: 45px;
+        width: 672px;
+
+        &:hover,
+        &:focus {
+            color: #000000;
+            outline: 0;
+        }
+
+
+    }
+}
+
+// 장바구니 눌렀을때 나오는 모달창 부분
+
+.addshopping {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.shoppingcartbar {
+    --tw-bg-opacity: 1;
+    background-color: #000000;
+    height: 1px;
+    border-width: 0;
+    margin: 12px 0 0 0;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.shoppingcart_box {
+    padding: 50px 0 30px 0;
+    margin-bottom: -10px;
+}
+
+// 쇼핑 계속하기 버튼
+
+.godetailmain {
+    display: flex;
+}
+
+// .godetailbutton {
+
+//     .btn1 {
+//         box-sizing: border-box;
+//         appearance: none;
+//         background-color: transparent;
+//         border: 2px solid #0099FC;
+//         border-radius: 0.2em;
+//         color: #007bcb;
+//         cursor: pointer;
+//         display: flex;
+//         align-self: center;
+//         font-size: 1rem;
+//         font-weight: 400;
+//         line-height: 1;
+//         margin: 20px;
+//         padding: 1.2em 2.8em;
+//         text-decoration: none;
+//         text-align: center;
+//         text-transform: uppercase;
+//         font-family: "Montserrat", sans-serif;
+//         font-weight: 700;
+//         padding: 16px;
+//         width: 139px;
+//         justify-content: center;
+
+//         &:hover,
+//         &:focus {
+//             color: #fff;
+//             outline: 0;
+//         }
+
+//     }
+// }
+
+.godetailbutton {
+
+        line-height: 1;
+        margin-right: 40px;
+        font-weight: 600;
+        padding: 12px 30px 12px 30px;
+        height: 17px;
+        font-size: 14px;
+        color: #0099FC;
+        cursor: pointer;
+        border: 2px solid #0099FC;
+        display: flex;
+        align-items: center;
+}
+
+// .first {
+//     transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+
+//     &:hover {
+//         box-shadow: 0 0 40px 40px #0099FC inset;
+//     }
+// }
+
+// .first {
+//     transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+
+//     &:hover {
+//         box-shadow: 0 0 40px 40px #0099FC inset;
+//     }
+// }
+
+
+// 장바구니 이동 버튼
+
+.gotoshoppingmain {
+    display: flex;
+}
+
+// .gotoshoppingbutton {
+
+//     .btn1 {
+//         box-sizing: border-box;
+//         appearance: none;
+//         background-color: transparent;
+//         border: 2px solid #0099FC;
+//         border-radius: 0.2em;
+//         color: #007bcb;
+//         cursor: pointer;
+//         display: flex;
+//         align-self: center;
+//         font-size: 1rem;
+//         font-weight: 400;
+//         line-height: 1;
+//         margin: 20px;
+//         padding: 1.2em 2.8em;
+//         text-decoration: none;
+//         text-align: center;
+//         text-transform: uppercase;
+//         font-family: "Montserrat", sans-serif;
+//         font-weight: 700;
+//         padding: 16px;
+//         width: 139px;
+//         justify-content: center;
+
+//         &:hover,
+//         &:focus {
+//             color: #fff;
+//             outline: 0;
+//         }
+
+//     }
+// }
+
+// .first {
+//     transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+
+//     &:hover {
+//         box-shadow: 0 0 40px 40px #0099FC inset;
+//     }
+// }
+
+.gotoshoppingbutton {
+
+    line-height: 1;
+    // margin: 20px;
+    font-weight: 600;
+    padding: 12px 30px 12px 30px;
+    height: 17px;
+    font-size: 14px;
+    background-color: #0099FC;
+    color: #ffffff;
+    cursor: pointer;
+    border: 2px solid #0099FC;
+    display: flex;
+    align-items: center;
+}
+
+
+.shoppincartmainbox {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px 0;
+}
+
+.closebtn {
+    display: flex;
+    cursor: pointer;
+
+}
+
+.closebtn1{
+    display: flex;
+    cursor: pointer;
+    margin-left: 460px;
+}
+
+
+// AI가 분석하는 리뷰
+
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.my-24 {
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.flex-grow,
+.grow {
+    flex-grow: 1;
+}
+
+.w-1\/2 {
+    width: 50%;
+}
+
+.mr-24 {
+    margin-right: 24px;
+}
+
+.aireviewbar {
+    display: flex;
+    margin-right: 36px;
+}
+
+.liketext {
+    margin: auto;
+}
+
+
+.reviewdata {
+    margin-left: 221px;
+}
+
+.reviewdata1 {
+    margin-left: 195px;
+}
+
+.reviewdata2 {
+    margin-left: 204px;
+}
+
+.reviewdata3 {
+    margin-left: 179px;
+}
+
+.reviewdata4 {
+    margin-left: 235px;
+}
+
+.reviewdata5 {
+    margin-left: 208px;
+}
+
+.reviewdata6 {
+    margin-left: 191px;
+}
+
+.reviewdata7 {
+    margin-left: 160px;
+}
+
+.reviewdata8 {
+    margin-left: 234px;
+}
+
+.like {
+    margin: auto;
+    font-size: 17px;
+    margin-left: 7px;
+    color: #0099FC
+}
+
+.dontlike {
+    margin: auto;
+    font-size: 18px;
+    margin-left: 7px;
+    color: gray;
+}
+
+.smileimg {
+    margin: auto;
+    margin-bottom: -4px
+}
+
+.notsmileimg {
+    margin: auto;
+    margin-bottom: -4px
+}
+
+
+.bar {
+    --tw-bg-opacity: 1;
+    background-color: rgba(242, 242, 242, var(--tw-bg-opacity));
+    height: 8px;
+    border-width: 0;
+    margin-bottom: 30px;
+}
+
+.bar2 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(242, 242, 242, var(--tw-bg-opacity));
+    height: 8px;
+    border-width: 0;
+    margin-bottom: 31px;
+}
+
+.bar3 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(242, 242, 242, var(--tw-bg-opacity));
+    height: 6px;
+    border-width: 0px;
+}
+
+.bar4 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(242, 242, 242, var(--tw-bg-opacity));
+    height: 6px;
+    border-width: 0px;
+}
+
+.margintop1 {
+    margin: auto;
+    margin-top: 33px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500
+}
+
+
+.likereview {
+    display: table-cell;
+}
+
+.dislike {
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+
+.aireview {
+    display: flex;
+    font-size: 21px;
+    margin-bottom: 23px;
+    margin-left: 9px;
+    font-weight: 600;
+}
+
+.ai {
+    font-weight: 600;
+    font-size: 21px;
+    color: #0099FC;
+}
+
+.reviewinfo {
+    display: flex;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.margintop2 {
+    margin: auto;
+    margin-top: 33px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.detailreview {
+    margin: auto;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 48px;
+    margin-bottom: 9px;
+    margin-left: 11px;
+}
+
+// 리뷰 평점
+
+.mirror_h {
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.graphbarmain {
+    display: ruby;
+    width: 19vw;
+}
+
+.reviewallbar{
+    display: flex;
+}
+
+
+.reviewratemain {
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+    width: 222.8px;
+    text-align: center;
+}
+
+.reviewcount {
+    margin: auto;
+    margin-left: 7px;
+    font-size: 18px;
+    color: #0099FC;
+}
+
+.reviewrate {
+    margin: auto;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.reviewtext {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+input[type="radio"] {
+    display: none;
+}
+
+.starrate {
+    cursor: pointer;
+    transition: color 200ms;
+}
+
+
+
+.graphbartext {
+    font-size: 16px;
+}
+
+.graphbar {
+    margin-top: 4px;
+    height: 50px;
+    width: 4px;
+    border-radius: 99999px;
+    background-color: #cdc2c2;
+}
+
+.h-\[95px\] {
+    height: 95px;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.w-\[20px\] {
+    width: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.hds-text-white {
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.hds-leading-\[16px\] {
+    line-height: 16px;
+}
+
+.hds-text-smalltext-medium {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+
+.hds-px-4 {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.hds-bg-yellow-600 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 190, 20, var(--tw-bg-opacity));
+}
+
+.hds-rounded-4 {
+    border-radius: 4px;
+}
+
+.hds-h-16 {
+    height: 16px;
+}
+
+.hds-inline-block {
+    display: inline-block;
+    margin-bottom: 27px;
+}
+
+.background-gray-secondary-hovered {
+    background-color: #f7f7f7;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+
+.h-\[50px\] {
+    height: 50px;
+}
+
+.mt-4 {
+    margin-top: 4px;
+}
+
+.bg-yellow-600 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 190, 20, var(--tw-bg-opacity));
+}
+
+.w-4 {
+    width: 4px;
+}
+
+.text-yellow-600 {
+    --tw-text-opacity: 1;
+    color: rgba(255, 190, 20, var(--tw-text-opacity));
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.hds-text-caption-large {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.reviewstar {
+    display: flex;
+    position: relative;
+}
+
+// 계정 정보 및 리뷰 
+.accountmain {
+    margin-top: 40px;
+}
+
+.accountinfo {
+    margin: auto;
+    margin-left: 18px;
+}
+
+.pagination {
+
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+
+}
+
+.object-center {
+    object-position: center;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.w-40 {
+    width: 40px;
+}
+
+.h-40 {
+    height: 40px;
+}
+
+img {
+    vertical-align: top;
+}
+
+img,
+video {
+    height: auto;
+    max-width: 100%;
+}
+
+.nickname {
+    font-size: 19px;
+}
+
+.hds-text-subtitle-medium {
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-left: 8px;
+}
+
+.skintype {
+    color: gray;
+}
+
+.ml-2 {
+    margin-left: 2px;
+}
+
+.hds-text-smalltext-large {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.accountstar {
+    display: flex;
+    position: absolute;
+    place-self: flex-end;
+    margin-left: 47px;
+}
+
+.textonly {
+    margin-top: -10px;
+}
+
+.relative {
+    position: relative;
+}
+
+.accountdate {
+    margin-bottom: -27px;
+    position: absolute;
+    display: flex;
+    transform: translate(107px, 0px);
+}
+
+.bg-gray-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(232, 232, 232, var(--tw-bg-opacity));
+}
+
+.w-\[1px\] {
+    width: 3px;
+    z-index: 1;
+}
+
+.text-gray-quaternary {
+    color: #aaa;
+}
+
+.ml-8 {
+    margin-left: 8px;
+}
+
+
+.reviewcommentmain {
+    margin-top: 20px;
+    margin-left: 9px;
+}
+
+
+.reviewcomment {
+    margin-left: 10px;
+    line-height: 32px;
+    margin-right: 10px;
+}
+
+.sosocommentmain {
+    margin-top: 10px;
+    margin-left: 11px;
+}
+
+.sosocomment {
+    margin-left: 12px;
+    line-height: 31px;
+    margin-top: -3px;
+}
+
+
+.ingredientmain {
+    margin-top: 35px;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 23px;
+    margin-left: 11px;
+}
+
+.ingredientdropbox {
+    min-width: 150px;
+    box-shadow: 0 4px 5px 0 #00000026;
+    position: relative;
+}
+
+#dropdown {
+    left: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.dropdownLabel {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    cursor: pointer;
+    box-sizing: content-box;
+}
+
+.contentcategory {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background: white;
+    box-shadow: 0 4px 5px 0 #00000026;
+}
+
+#dropdown:checked+label+div {
+    display: block;
+    border-top: 1px solid #00000026;
+}
+
+.caretIcon {
+    transition: transform 250ms ease-out;
+}
+
+#dropdown:checked+label>.caretIcon {
+    transform: rotate(-180deg);
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 12px;
+    margin: 0;
+
+}
+
+.content ul li {
+    margin: 0.8rem 0;
+}
+
+.more-button{
+    display: flex;
+    margin-left: 13px;
+    background: #ffffff;
+    border: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+// 성분 구성 위험 단계 부분 (공통 css)
+
+.justify-between {
+    justify-content: space-evenly;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.gap-x-4 {
+    column-gap: 4px;
+}
+
+.gap-x-8 {
+    column-gap: 8px;
+}
+
+.items-center {
+    align-items: center;
+}
+
+
+.text-gray-tertiary {
+    color: #999;
+}
+
+.colordanger {
+    margin-top: 20px;
+}
+
+
+// 성분 구성 막대
+
+.rounded-4 {
+    border-radius: 12px
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.h-12 {
+    height: 15px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+// 전체 성분 
+
+.allingredient {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 43px;
+    margin-left: 11px;
+}
+
+.allingredientbar1 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(242, 242, 242, var(--tw-bg-opacity));
+    height: 5px;
+    border-width: 0;
+    margin-top: 7px;
+    margin-bottom: 40px;
+}
+
+.allingredientbar2 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(242, 242, 242, var(--tw-bg-opacity));
+    height: 5px;
+    border-width: 0;
+    margin-top: 60px;
+    margin-bottom: 52px;
+}
+
+.ingredientbar {
+    --tw-bg-opacity: 1;
+    background-color: rgba(242, 242, 242, var(--tw-bg-opacity));
+    height: 4px;
+    border-width: 0;
+    transform: translate(0px, 103px);
+}
+
+.caution {
+    margin-top: 48px;
+}
+
+.allergy {
+    margin-top: 20px;
+}
+
+.cautiontext {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-gray-secondary {
+    color: #666;
+}
+
+.ingredientbetween {
+    margin-left: 433px;
+}
+
+.ingredientbetween1 {
+    margin-left: 421px;
+}
+
+.allergytext {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ingredientnumber {
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-left: -27px;
+}
+
+// 목적별 성분
+
+.purpose {
+    margin: auto;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    margin-top: 43px;
+}
+
+.purposeingredientbar {
+    --tw-bg-opacity: 1;
+    background-color: rgba(242, 242, 242, var(--tw-bg-opacity));
+    height: 4px;
+    border-width: 0;
+    margin-top: 43px;
+}
+
+// 회색 텍스트 박스 
+.graybox {
+    margin: auto;
+    margin-top: 47px;
+}
+
+.background-gray-secondary-disabled,
+.background-gray-secondary-hovered {
+    background-color: #f7f7f7;
+}
+
+.py-16 {
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.rounded-8 {
+    border-radius: 8px;
+}
+
+// 아래 앱으로 보기 고정 버튼
+
+
+.z-10 {
+    z-index: 10;
+}
+
+.left-\[0\],
+.left-\[0px\] {
+    left: 0;
+}
+
+.bottom-\[0\],
+.bottom-\[0px\] {
+    bottom: 0;
+}
+
+.fixed {
+    position: sticky;
+    background-color: white;
+}
+
+
+
+.bg-white {
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+
+.max-w-\[600px\] {
+    max-width: 600px;
+}
+
+.mx-auto {
+    width: 312px;
+    margin-bottom: 9px;
+}
+
+.allreviewbtncontainer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.allreviewbtn1 {
+    flex: 1 1 auto;
+    padding: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-decoration-line: none;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.allreviewbtn1:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+}
+
+.btn-6 {
+    background-image: linear-gradient(to right, #0099FC 50%, rgb(56 157 243) 50%, #ffecd2 100%);
+}
+
+.grayboxareabar {
+    --tw-bg-opacity: 1;
+    background-color: rgba(242, 242, 242, var(--tw-bg-opacity));
+    height: 5px;
+    border-width: 0;
+    margin-top: 65px;
+}
+
+// 피부 타입 성분
+
+.skintypeingredient {
+    margin: auto;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    margin-top: 43px;
+}
+
+// 회색 텍스트 박스 2
+
+.pt-12 {
+    padding-top: 12px;
+}
+
+.pb-16 {
+    padding-bottom: 16px;
+}
+
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.items-start {
+    align-items: flex-start;
+}
+
+.graybox2 {
+    margin: auto;
+    margin-top: 47px;
+}
+
+// 장바구니 모달창 210번 줄에 있는 거 가져옴
+.shoppingcart {
+    display: flex;
+    font-size: 17px;
+    font-weight: 800;
+    margin-left: -15px;
+    margin-top: 0px;
+    color: #000000;
+    justify-content: space-between;
+}

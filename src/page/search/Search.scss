@@ -1,0 +1,236 @@
+.searchbtn {
+    padding-left: 16px;
+    padding-right: 16px;
+    // padding-top: 8px;
+    // padding-bottom: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    top: 0px; /* 상단 고정 */
+    z-index: 10; /* 상단 고정 */
+    position: sticky; /* 상단 고정 */
+    background-color: white;
+    transition: box-shadow 0.3s ease; /* 스크롤 시 부드럽게 그림자가 생기도록 전환 효과 추가 */
+    box-shadow: none; /* 기본 상태에서 그림자 제거 */
+}
+
+.Search.sticky .searchbtn {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1); /* 스크롤 시 그림자 추가 */
+}
+
+// 나머지 CSS 코드 동일
+
+
+// 최근 검색어 부분
+.recent {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+// '최근 검색어' 글씨
+.recentName {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -.1px;
+}
+
+// .backbtn {
+//     // width: 15px;
+//     height: 18px;
+//     // color: black;
+//     // display: block;
+//     border: 0;
+//     background-color: transparent;
+//     float: left;
+//     // margin-right: 10px;
+// }
+
+.back {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    // color: rgba(0, 0, 0, var(--tw-text-opacity));
+    // margin-top: 13px;
+    // background-color: transparent;
+    // border: 0;
+    // float: left;
+    
+}
+
+// 전체 삭제
+.deletebtn {
+    font-size: 12px;
+    font-weight: 700;
+    border: 0;
+    background-color: transparent;
+}
+
+// 최근 검색어의 사용자가 검색한 단어들
+.search {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+}
+
+// 최근 검색어의 사용자가 검색한 단어 버튼
+.recentSearchName {
+    margin: 6px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: #e8e8e8;
+    color: #666;
+    font-size: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+    align-items: center;
+    height: 32px;
+    display: inline-flex;
+    cursor: pointer;
+    background-color: white;
+}
+
+.deletebtn {
+    margin-left: 10px;
+}
+
+.xbtn {
+    font-weight: bold;
+}
+
+// 최근 검색어 아래의 줄
+.line {
+    height: 10px;
+    background-color: #f3f3f3;
+    border: 0 solid #f2f2f2;
+    margin: 0;
+}
+
+.h-24{
+    height: 24px;
+}
+
+.timeproduct {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.searchtime {
+    color: #666;
+    line-height: normal;
+    font-size: 12px;
+}
+
+// 지금 가장 많이 구매하고 있어요 :)
+.product {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+    // padding-top: 16px;
+    // padding-right: 20px;    
+    // padding-bottom: 16px;
+    letter-spacing: -.2px;
+}
+
+// 검색했을 때 나오는 전체 제품들 양 옆 패딩 주기
+.products {
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    // max-height: calc(90vh - 300px); /* 화면 높이에서 푸터와 상단 일부를 제외한 높이 설정 */
+    // overflow-y: auto; /* 콘텐츠가 넘칠 경우 세로 스크롤바 표시 */
+    // padding-bottom: 20px; /* 스크롤 영역의 아래쪽에 여유 공간 추가 */
+}
+
+// 제품 하나
+.product1 {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+// 한 개의 제품마다 사진이랑 제품명들 양 옆으로 조정 후 위아래 패딩
+.searchflex {
+    display: flex;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-decoration: none;
+    color: black;
+    //background-color: rgb(221, 191, 205);
+    height: 80px;
+}
+
+.idx {
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 4px;
+    width: 30px;
+    //height: 72px;
+    justify-content: center;
+    align-items: center;
+}
+
+.productimg {
+    padding: 3px;
+}
+
+.items {
+    margin-left: 12px;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: -.1px;
+    line-height: 21px;
+}
+
+.searchfont {
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.searchbrand {
+    font-size: 14px;
+    color :#999;
+    margin-right: 3px;
+}
+
+// .review1 {
+//     margin-top: 5px;
+//     margin-bottom: 12px;
+    
+// }
+
+.star1 {
+    width: 10px;
+    height: 10px;
+}
+
+.grade {
+    color: #666;
+    margin-right: 1.5px;
+    font-size: 13px;
+    margin-left: 2px;
+}
+
+.gray {
+    font-size: 12px;
+    color :#999;
+}
+
+.searchprice{
+    margin-top: 4px;
+}
+
+.jungga {
+    color: #666;
+    font-size: 12px;
+}
+
+.won {
+    font-size: 15px;
+    margin-right: 3px;
+    color: #666;
+}
+

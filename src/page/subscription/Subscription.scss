@@ -1,0 +1,544 @@
+// 제목 
+.subscriptiontext {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 21px;
+    margin-top: 100px;
+    font-weight: 600;
+}
+
+.subscriptiontext2 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 21px;
+    margin-top: 17px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+
+// 텍스트 박스 1
+.maintextbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+.firstbox {
+    border: 1px solid rgba(205, 205, 205, 0.7019607843);
+    border-radius: 8px;
+    background-color: #ffffff;
+    // margin: 4px;
+    // padding: 33px;
+    width: 250px;
+    // padding-bottom: 0px;
+}
+
+.first_text {
+
+}
+
+.firstboxtext {
+    display: flex;
+    margin-left: -28px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: -14px;
+}
+
+.firstboxtext2 {
+    margin: auto;
+    display: flex;
+    margin-left: -28px;
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 16px;
+    color: gray;
+}
+
+.firstboxtext2_1 {
+    margin: auto;
+    display: flex;
+    margin-left: -28px;
+    font-size: 12px;
+    line-height: 16px;
+    color: gray;
+}
+
+.firstboxtext2_2 {
+    margin: auto;
+    display: flex;
+    margin-left: -28px;
+    font-size: 12px;
+    line-height: 16px;
+    color: gray;
+}
+
+.secondbox {
+    border: 1px solid rgba(205, 205, 205, 0.7019607843);
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin: 4px;
+    padding: 66px;
+    width: 113px;
+    height: 0px;
+}
+
+.secondboxtext {
+    display: flex;
+    margin-left: -59px;
+    margin-top: -47px;
+    font-size: 17px;
+    font-weight: 600;
+    width: 204px;
+}
+
+.secondboxtext2 {
+    display: flex;
+    margin-left: -58px;
+    font-size: 12px;
+    line-height: 16px;
+    color: gray;
+    width: 233px;
+    margin-top: 23px;
+}
+
+.secondboxtext2_1 {
+    display: flex;
+    margin-left: -58px;
+    font-size: 12px;
+    line-height: 16px;
+    color: gray;
+    width: 213px;
+}
+
+.secondboxtext2_2 {
+    display: flex;
+    margin-left: -58px;
+    font-size: 12px;
+    line-height: 16px;
+    color: gray;
+    width: 213px;
+}
+
+
+// 텍스트 박스 2
+
+.maintextbox2 {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.thirdbox {
+    border: 1px solid rgba(205, 205, 205, 0.7019607843);
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin: 4px;
+    padding: 61px;
+    width: 129px;
+    height: 11px;
+    margin-top: 44px;
+}
+
+.thirdboxtext {
+    display: flex;
+    margin-left: -56px;
+    margin-top: -39px;
+    font-size: 17px;
+    font-weight: 600;
+    width: 213px;
+}
+
+.thirdboxtext2 {
+    display: flex;
+    margin-left: -55px;
+    font-size: 12px;
+    line-height: 16px;
+    color: gray;
+    width: 255px;
+    margin-top: 21px;
+}
+
+.thirdboxtext2_1 {
+    display: flex;
+    margin-left: -55px;
+    font-size: 12px;
+    line-height: 16px;
+    color: gray;
+    width: 213px;
+}
+
+.fourthbox {
+    border: 1px solid rgba(205, 205, 205, 0.7019607843);
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin: 4px;
+    height: 134px;
+    margin-top: 45px;
+    box-sizing: border-box;
+    width: 247px;
+}
+
+.fourthboxtext {
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 21px;
+    margin-left: 4px;
+
+}
+
+.fourthboxtext2 {
+    display: flex;
+    font-size: 12px;
+    line-height: 16px;
+    color: gray;
+    margin-top: 21px;
+    margin-left: 5px;
+
+}
+
+.fourthboxtext2_1 {
+    display: flex;
+    font-size: 12px;
+    line-height: 16px;
+    color: gray;
+    margin-left: 5px;
+
+}
+
+.fourthboxtext2_2 {
+    display: flex;
+    font-size: 12px;
+    line-height: 16px;
+    color: gray;
+    margin-left: 5px;
+
+}
+
+
+
+
+
+
+
+// 기초 구독 화면 쪽
+
+
+
+
+
+
+
+.image1 {
+    display: flex;
+    float: right;
+    margin-left: 110px;
+
+}
+
+.basictitlemainbox{
+
+}
+
+.basictitle {
+    font-size: 23px;
+    font-weight: 700;    
+    line-height: 40px;
+}
+
+.basictitle2 {
+    display: flex;
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.basictextbox{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.basictext {
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    width: 353px;
+}
+
+.basictext2{
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    margin-top: 17px;
+}
+
+.basictext3{
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    margin-top: 17px;
+    width: 314px;
+}
+
+.basicbutton {
+    flex: 1 1 auto;
+    padding: 11px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration-line: none;
+    cursor: pointer;
+    margin-top: 17px;
+    font-size: 11px;
+    margin-left: -6px;
+}
+  
+// .btn-5:hover {
+//     background-position: right center; /* change the direction of the change here */
+// }
+
+// .btn-5 {
+//     background-image: linear-gradient(to right, #0099FC 50%, rgb(56 157 243) 50%, #ffecd2 100%);
+// }
+
+
+// // 색조 구독 화면 쪽
+
+// .huetitlemainbox{
+//     margin-top: 190px;
+// }
+
+// .huetitle {
+//     display: flex;
+//     font-size: 26px;
+//     font-weight: 700;
+// }
+
+// .huetitle2 {
+//     display: flex;
+//     font-size: 26px;
+//     font-weight: 700;
+// }
+
+// .huetextbox{
+//     margin-top: 20px;
+// }
+
+// .huetext {
+//     display: flex;
+//     font-size: 13px;
+//     color: gray;
+// }
+
+// .huetext2{
+//     display: flex;
+//     font-size: 13px;
+//     color: gray;
+// }
+
+// .huebutton {
+//     flex: 1 1 auto;
+//     padding: 11px;
+//     text-transform: uppercase;
+//     transition: 0.5s;
+//     background-size: 200% auto;
+//     color: rgb(255, 255, 255);
+//     border-radius: 10px;
+//     font-weight: 600;
+//     text-decoration-line: none;
+//     cursor: pointer;
+//     margin-top: 17px;
+//     font-size: 11px;
+//     margin-left: -6px;
+// }
+
+
+
+// 기초+색조 화면
+.freeexplainmainbox{
+    display: flex;
+    margin-top: 25px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: #efefef;
+    border: 1px solid rgba(205, 205, 205, 0.7019607843);
+}
+
+.image2 {
+    display: flex;
+    float: right;
+    margin-left: 53px;
+}
+
+.basichuetitlemainbox{
+
+}
+
+.basichuetitle {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.basichuetitle2 {
+    display: flex;
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.basichuetextbox{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.basichuetext {
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    width: 388px;
+
+}
+
+.basichuetext2{
+    display: flex;
+    font-size: 13px;
+    margin-top: 17px;
+    color: gray;
+}
+
+.basichuebutton {
+    flex: 1 1 auto;
+    padding: 11px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration-line: none;
+    cursor: pointer;
+    margin-top: 17px;
+    font-size: 11px;
+    margin-left: -6px;
+}
+
+
+.nemo_box {
+    border-radius: 8px;
+    padding: 16px 25px 16px 25px;
+    margin: 25px 12px 25px 12px;
+    width: 30%;
+    align-content: center;
+    background-color: #00c1fc1a;
+    box-shadow: 0px 0px 20px #cdcdcd;
+}
+
+.bord_text {
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.line_none {
+    border: 0;
+}
+
+.nemo_text {
+    font-size: 12px;
+    line-height: 17px;
+    color: gray;
+}
+
+.subscriptiontitle {
+    margin: 43px 0 25px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 21px;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+}
+
+.subscription_back_btn {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.gudogbox_text {
+    border: 1px solid rgba(205, 205, 205, 0.7019607843);
+    border-radius: 8px;
+    padding: 16px 20px 16px 20px;
+    margin: 20px;
+    width: 650px;
+    height: 250px;
+    align-content: center;
+}
+
+.gudog_titlebox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.gudog_img {
+    float: inline-end;
+    width: 280px;
+    height: 187px;
+    padding: 30px 0 30px 0;
+}
+
+.gudogprice_title{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.gudog_titletext {
+    padding: 20px 310px 15px 0;
+    line-height: 25px;
+}
+
+
+.btn-5:hover {
+    box-shadow: 0px 0px 10px #0099FC;
+}
+
+.gudog_go_btn{
+    background-color: #0099FC;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 8px 17px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.gudog_basictext{
+    font-size: 14px;
+    line-height: 20px;
+    color:#6d6d6d;
+}
+
+.premium_free{
+    font-size: 18px;
+    font-weight: 800;
+    color: #ff3737;
+    padding-bottom: 7px;
+}

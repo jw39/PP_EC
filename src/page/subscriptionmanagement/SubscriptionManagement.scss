@@ -1,0 +1,80 @@
+.management_title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom :20px;
+    font-size : 30px;
+    font-weight: bold;
+}
+
+.management_subtitle_contents {
+    width: 50%;
+    text-align: center;
+    padding : 20px 0;
+    border : 1px solid #888585;
+}
+.management_subtitle_contents:last-child{
+    border-left :none;
+}
+
+.none{
+
+
+    background-color: #F3F3F3;
+}
+
+.active{
+
+}
+.management_date_container_main
+{
+    align-items: center;
+    .management_date_container:first-child{
+        width : 200px;
+        font-size :18px;
+        font-weight: 600;
+    }
+    
+    .management_date_container:last-child{
+        flex :1;
+        text-align: right;
+    }
+
+}
+
+.management_subtitle{
+    justify-content: space-around;
+    padding : 20px 0;
+    font-size : 20px;
+}
+
+
+
+
+
+.management_contents{
+    width : 90%;
+    margin : auto;
+    margin-top : 20px;
+}
+
+.management_btn{
+    flex : none;
+}
+
+.management_btn_container{
+    justify-content: space-around;
+}
+
+.management_inlinetext{
+    width : 60%;
+    margin :auto;
+    // background: rgb(233, 229, 229);
+    font-size : 20px;
+    font-weight: 600;
+    color : rgb(155, 149, 231);
+    
+}
+
+.management_item_container{
+    justify-content: space-between;
+}
