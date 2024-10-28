@@ -7,7 +7,7 @@ from ppDetail import ppDetailPage, ppGetReveiw, ppRatingAvg, ppRatingCnt, ppRevi
 from join import ppJoin
 from ppLogin import ppLogin
 from ppSearch import ppSearch, ppSearchList
-#from Test import testJoin, testLogin, testUserData, testOrderData, testCategory, testSearch, testReviewData,testDY
+from Test import testJoin, testLogin, testUserData, testOrderData, testCategory, testSearch, testReviewData,testDY
 from payment import payment, Clearpayment
 from ppCartOrder import ppAddCart, ppOrderCart, ppOrder, ppDeleteCartItems, ppUpdateCartCnt, ppOrderHistoryOne, ppOrderHistory, ppSubscribeHistory
 from ppAddress import ppAddressList, ppEditAddress, ppInsertAdd
@@ -53,16 +53,16 @@ api.add_resource(ppPositiveScore, '/PositiveScore')
 api.add_resource(payment , "/payment")
 api.add_resource(Clearpayment , "/clearpayment")
 
-# api.add_resource(testJoin, '/TestJoin')
-# api.add_resource(testLogin, '/TestLogin')
-# api.add_resource(testUserData, '/TestUserData')
-# api.add_resource(testOrderData, '/TestOrderData')
-# api.add_resource(testReviewData, '/TestReviewData')
+api.add_resource(testJoin, '/TestJoin')
+api.add_resource(testLogin, '/TestLogin')
+api.add_resource(testUserData, '/TestUserData')
+api.add_resource(testOrderData, '/TestOrderData')
+api.add_resource(testReviewData, '/TestReviewData')
 
-# api.add_resource(testCategory, '/TestCategory')
-# api.add_resource(testSearch, '/TestSearch')
+api.add_resource(testCategory, '/TestCategory')
+api.add_resource(testSearch, '/TestSearch')
 
-# api.add_resource(testDY, '/TestDY')
+api.add_resource(testDY, '/TestDY')
 # api.add_resource(abc, '/Recommend')
 # api.add_resource(recoIng, '/RecoIng')
 # api.add_resource(skinCheck, '/SkinCheck')
