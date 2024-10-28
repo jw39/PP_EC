@@ -1,0 +1,150 @@
+.airecommenduser{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.recommendid{
+    color : #0099FC;
+    margin-right: 3px;
+}
+
+// 비구독자 쪽
+
+.notsubscribe{
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+.notsubscribetext{
+    display: flex;
+    line-height: 40px;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 5px 0 5px 0;
+}
+
+#counter {
+    color:#0099FC;
+    font-size: 21px;
+    font-weight: 700;
+    margin-right: 3px;
+}
+.countup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.notsubscribetext1{
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.notsubcoslist{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 13px;
+
+}
+
+// 구독자 쪽
+
+.subscribe{
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+}
+
+.subscribetext{
+    display: flex;
+    line-height: 40px;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 7px 0 5px 0;
+}
+
+#counter1 {
+    color:#0099FC;
+    font-size: 23px;
+}
+.countup1{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.maketosub{
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 0 30px 0 30px;
+    border: 2px solid #0099fc;
+    width: 366px;
+    height: 104px;
+    position: absolute;
+    margin-top: 124px;
+    margin-left: 167px;
+    z-index: 100;
+    background: white;
+
+}
+
+.maketosubtext{
+    margin-top: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;    
+}
+
+.maketosubbtn{
+    display: flex;
+    margin-left: 96px;
+    margin-top: 17px;
+    margin-right: 96px;
+    border-radius: 11px;
+    background: #0099fc;
+    border: 2px solid #0099FC;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    height: 33px;
+    font-size: 12px;
+    line-height: 29px;
+    width: 115px;
+    justify-content: center;
+}
+
+.maketosubbtn:hover{
+    color: black;
+}
+
+
+.subscribetext1{
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.subscribecos{
+    display: flex;
+    filter: blur(18px); 
+    -webkit-filter: blur(18px); 
+    justify-content: center;
+    margin-top: 15px;
+    pointer-events: none; /* 클릭 이벤트를 차단합니다 */
+    margin-right: 15px;
+    margin-left: -4px;
+}
+
+.aigoback{
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+}
+

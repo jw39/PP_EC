@@ -1,0 +1,69 @@
+.alldiv{
+    width : 95%;
+    height: 400px;
+    flex-wrap: wrap;
+    
+}
+
+.itemBox{
+    height: 130px;
+    align-items: center;
+    width : 52%;
+}
+
+
+.rank_brand_name{
+    font-size: 13px;
+    color: #999999; 
+}
+
+.rank_cos_name{
+    color: #111111;
+    font-size: 14px;
+}
+
+.rank_cos_price{
+    font-size: 15px;
+    color: #666666;
+    margin-right: 2px;
+}
+.rank_cos_grade{
+    color: #666666;
+    font-size: 13px;
+}
+
+.rank_cos_grade_cnt{
+    color: #999999;
+    font-size: 12px;
+
+}
+
+.rank_text{
+    font-size: 12px;
+    color: #666666;
+}
+
+
+.rank_vol{
+    color: #999999;
+    font-size: 12px;
+}
+
+.rank_grade{
+    margin-top: 4px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.rank_price{
+    text-align: left;
+}
+
+.rank_img{
+    margin: 10px;
+}
+
+.rank_num{
+    font-weight: bold;
+}
+

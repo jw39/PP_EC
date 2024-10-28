@@ -1,0 +1,49 @@
+.detailgraphbar_Container{
+    display: inline-block;
+    width: 27px;
+    text-align: center;
+}
+
+.cntcounttext{
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    margin-left: 4px;
+    margin-right: 4px;
+    transform: rotateZ(-90deg);
+    font-weight: 600;
+    color: #00000087;
+}
+
+.detailgraphbarchart{
+    // object-fit: fill;
+}
+
+.detailgraphbarchart_back {
+    width: 5px;
+    height: 112px;
+    background-color: rgb(233, 227, 227);
+    transform: scaleY(-1);
+    transition: 0.3s;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 6px;
+}
+
+.detailgraphbar_Title{
+    word-break:break-all;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    transform: rotateZ(-90deg);
+    margin-top: 8px;
+    
+}
+
+.detailgraphbar_main{
+    display : flex;
+    scrollbar-width: none;
+    transform: rotateZ(90deg);
+    margin-left: 106px;
+}

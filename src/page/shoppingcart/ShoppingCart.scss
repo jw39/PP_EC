@@ -1,0 +1,212 @@
+.basket_x_btn{
+    width : 20px;
+    height: 20px;
+    
+}
+
+.management_title{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.margin_left_pull
+{
+    margin-left : 53%;
+}
+
+.cartbox_text {
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding-left: 280px;
+}
+
+.sampleroad_text {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 4px 8px 4px;
+}
+
+.basket_img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.basket_count {
+    width: 14px;
+    height: 14px;
+}
+
+
+
+.basket_sum_btn{
+    border: 1px solid rgb(221, 214, 214);
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket_under_container{
+    height: 30px;
+    line-height: 24px;
+    font-size: 25px;
+    padding: 10px 30px 15px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.basket_under_content_box{
+    width: 110px;
+    justify-content: space-between;
+    padding: 0 95px 0 25px;
+}
+
+.grayline{
+    border: 4px solid #ededed;
+}
+
+.basket_check
+{
+    height: 83px;
+    accent-color: rgb(17, 17, 17);
+}
+
+.total_check {
+    height: 30px;
+    accent-color: rgb(17, 17, 17);
+    margin-top: 4px;
+}
+
+.totalcheck_text {
+    color: rgb(115 115 115);
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.basket_content_text{
+    line-height: 27px;
+    white-space: nowrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    align-content: center;
+
+}
+
+.basket_middle_container{
+    padding : 20px 0;
+    width : 400px;
+    margin : auto;
+    justify-content: space-between;
+}
+
+.basket_middle_btn{
+    width : 170px;
+    height : 40px;
+    text-align: center;
+    line-height : 40px;
+    color : #fff;
+}
+
+.basket_middle_btn:first-child{
+    border : 1px solid #0099FC;
+    color : #0099FC;
+    box-sizing: border-box;
+}
+
+.basket_middle_btn:last-child{
+    background: #0099FC;
+    
+}
+
+.deletebtn_text {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.basketvol_text {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.tax_title{
+    padding: 20px 13px 13px 13px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.basket_line{
+    margin-bottom: 15px;
+}
+
+.totalpay_delivery {
+    font-size: 15px;
+}
+
+.sub_title{
+    color: gray;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.basket_price{
+    font-size: 16px;
+    font-weight: bolder;
+    color: black;
+}
+
+.cart_totalpay_text {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.pay_fix_btn {
+    margin-top: 5px;
+}
+
+.cart_totalpay_box {
+    padding: 15px 30px 15px 30px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.basket_text{
+    font-size : 14px;
+    font-weight: 500;
+    margin-top: -6px;
+    margin-bottom: -4px;
+}
+
+.basket_color_text{
+    color :#0099FC;
+}
+
+.basket_fix_btn{
+    background: #0099FC;
+    text-align: center;
+    height : 50px;
+    border-radius: 10px;
+    color : #fff;
+    font-size : 30px;
+    line-height: 50px;
+    position: sticky;
+    bottom: 10px;
+    width : 100%;
+    font-weight: 600;
+}
+
+.basket_item_box{
+    padding-top : 10px;
+}
+

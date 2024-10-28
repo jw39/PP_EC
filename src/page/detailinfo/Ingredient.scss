@@ -1,0 +1,177 @@
+// 성분 구성 쪽
+
+.ingredientcomposition {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 55px;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+
+.totaling{
+    margin-left: 5px;
+    color: #0099FC;
+    font-size: 19px;
+}
+
+
+.colordanger{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.colorcnt {
+    font-size: 16px;
+    line-height: 45px;
+    color: white;
+}
+
+// 청록색 부분
+.score-blue{
+   color: rgba(25, 215, 210, var(--tw-bg-opacity));
+}
+
+.bg-mint-600 {
+    margin-left: 14px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(25, 215, 210, var(--tw-bg-opacity));
+}
+
+.text-mint-600 {
+    --tw-text-opacity: 1;
+    color: rgba(25, 215, 210, var(--tw-text-opacity));
+}
+
+// 노란색 부분
+.score-yellow{
+    color: rgba(255, 190, 20, var(--tw-text-opacity));
+}
+
+.bg-yellow-600 {
+    margin-left: 14px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 190, 20, var(--tw-bg-opacity));
+}
+
+.text-yellow-600 {
+    --tw-text-opacity: 1;
+    color: rgba(255, 190, 20, var(--tw-text-opacity));
+}
+
+// 빨간색 부분
+
+.score-red{
+    color: rgba(255, 85, 85, var(--tw-bg-opacity));
+}
+
+.bg-red-600 {
+    margin-left: 14px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 85, 85, var(--tw-bg-opacity));
+}
+
+.text-red-600 {
+    --tw-text-opacity: 1;
+    color: rgba(255, 85, 85, var(--tw-text-opacity));
+}
+
+// 등급 미정 부분
+.score-gray{
+    color: rgba(170, 170, 170, var(--tw-bg-opacity));
+}
+
+.bg-gray-600 {
+    margin-left: 4px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(170, 170, 170, var(--tw-bg-opacity));
+}
+
+.text-gray-600 {
+    --tw-text-opacity: 1;
+    color: rgba(170, 170, 170, var(--tw-text-opacity));
+}
+
+
+.rounded-full {
+    border-radius: 99999px;
+}
+
+.w-\[10px\] {
+    width: 46px;
+}
+
+.h-\[10px\] {
+    height: 46px;
+}
+
+
+
+.ingmaintext{
+    margin-top: 12px;
+    display: flex;
+}
+
+.ingmain{
+    height: 480px;
+    overflow-y: auto;
+}
+
+.ingmain::-webkit-scrollbar {
+    display: none;
+}
+
+.ingscore{
+    font-size: 15px;
+    line-height: 44px;
+    margin-left: 4px;
+    margin-top: 23px;
+    font-weight: 600;
+    color: white;
+}
+
+.ingeng{
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 30px;
+
+
+}
+
+.ingkor{
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 30px;
+
+}
+
+.inguse{
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.ing3{
+    margin-left: 35px;
+}
+
+.ingbar {
+    --tw-bg-opacity: 1;
+    background-color: rgba(242, 242, 242, var(--tw-bg-opacity));
+    height: 5px;
+    border-width: 0;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.ingbar2 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(242, 242, 242, var(--tw-bg-opacity));
+    height: 3px;
+    border-width: 0;
+
+}
