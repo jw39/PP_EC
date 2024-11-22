@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PP_EC/static/css/main.4759a88d.css",
-    "main.js": "/PP_EC/static/js/main.8f508df6.js",
+    "main.js": "/PP_EC/static/js/main.348f93c0.js",
     "static/js/488.ccc9b638.chunk.js": "/PP_EC/static/js/488.ccc9b638.chunk.js",
     "static/media/광고배너4.png": "/PP_EC/static/media/광고배너4.6757fd3cfdf062fce5b9.png",
     "static/media/광고배너9.png": "/PP_EC/static/media/광고배너9.0eebf9d186e589725f04.png",
@@ -33,11 +33,11 @@
     "static/media/select_icon.png": "/PP_EC/static/media/select_icon.006222c12550c9ada16f.png",
     "index.html": "/PP_EC/index.html",
     "main.4759a88d.css.map": "/PP_EC/static/css/main.4759a88d.css.map",
-    "main.8f508df6.js.map": "/PP_EC/static/js/main.8f508df6.js.map",
+    "main.348f93c0.js.map": "/PP_EC/static/js/main.348f93c0.js.map",
     "488.ccc9b638.chunk.js.map": "/PP_EC/static/js/488.ccc9b638.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4759a88d.css",
-    "static/js/main.8f508df6.js"
+    "static/js/main.348f93c0.js"
   ]
 }
