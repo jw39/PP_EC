@@ -14,7 +14,7 @@ import pymysql
 
 def db_connection():
     db = pymysql.connect(
-        host='192.168.1.23',
+        host='192.168.1.189',
         port=3306,
         user='ppuser',
         password='12345',

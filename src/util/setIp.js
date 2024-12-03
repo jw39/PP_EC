@@ -5,4 +5,4 @@
 // export const IP = "http://192.168.219.124:5002"; //도연이형꺼:q!
 
 
-export const IP = "http://192.168.1.23:5002";
+export const IP = "https://192.168.1.189:5002";

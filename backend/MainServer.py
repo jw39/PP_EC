@@ -12,6 +12,7 @@ from payment import payment, Clearpayment
 from ppCartOrder import ppAddCart, ppOrderCart, ppOrder, ppDeleteCartItems, ppUpdateCartCnt, ppOrderHistoryOne, ppOrderHistory, ppSubscribeHistory
 from ppAddress import ppAddressList, ppEditAddress, ppInsertAdd
 #from recommend import abc, recoIng, skinCheck
+import ssl
 
 
 
@@ -19,6 +20,12 @@ app = Flask(__name__, static_folder='../build', static_url_path='/')
 CORS(app) 
 app.config['JSON_AS_ASCII'] = False
 api = Api(app)
+
+# SSL 인증서와 키 파일 설정 (ssl.SSLContext 사용)
+context = ssl.create_default_context(ssl.Purpose.CLIENT_AUTH)
+context.load_cert_chain(certfile='C:\\Users\\203033\Desktop\\CODE\\PP_EC\\backend\\server-cert.pem',
+                        keyfile='C:\\Users\\203033\\Desktop\\CODE\\PP_EC\\backend\\private-key.pem')
+
 
 
 
@@ -70,4 +77,4 @@ api.add_resource(testDY, '/TestDY')
 
 
 if __name__ == '__main__':
-    app.run('0.0.0.0', port=5002, debug=True)
+    app.run('0.0.0.0', port=5002, debug=True, ssl_context=context)
